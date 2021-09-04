@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                             bulb.setImageDrawable(green);
                         }
                     }
+
                 } else {
                     bulb.setImageDrawable(red);
                 }

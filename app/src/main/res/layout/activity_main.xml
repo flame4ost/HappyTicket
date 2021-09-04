@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
 
     <ImageView
         android:id="@+id/imageView"
@@ -28,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/bulb"
-        android:contentDescription="@string/yui" />
+         />
 
     <EditText
         android:id="@+id/editText"
@@ -61,5 +62,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintVertical_bias="0.164"
-        tools:ignore="UsingOnClickInXml" />
+        tools:ignore="MissingClass,UsingOnClickInXml" />
 </androidx.constraintlayout.widget.ConstraintLayout>
